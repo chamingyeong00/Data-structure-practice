@@ -22,7 +22,10 @@ int main(void)
         sort(list, n);
         duration = ((double) (clock() - start))/CLOCKS_PER_SEC;
         printf("\nSorted array:\n");
-        for (j = 0; j < n; j++)
+        for (j = 0; j < 10; j++)
+            printf("%d ",list[j]);
+        printf(" . . . ");
+        for (j = n-10; j < n; j++)
             printf("%d ",list[j]);
         printf("\n");
         if(is_sorted(list, n) == 1){

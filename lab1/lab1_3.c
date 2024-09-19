@@ -9,19 +9,24 @@ int binsearch(int list[], int searchnum, int left, int right);
 
 int main(void)
 {
-    int n, i, j, key;
+    int n = 100000, i, j, key=0;
     int list[MAX_SIZE];
-    printf("Enter the number of numbers to generate: ");
-    scanf("%d", &n);
-    printf("%d개의 역순 숫자 : ", n);
+    printf("랜덤 숫자 : ");
     for (i = 0; i < n; i++) {
-        list[i] = n-i;
-        printf("%d ",list[i]);
+        list[i] = rand()%100000 + 1;
     }
+    for (j = 0; j < 10; j++)
+        printf("%d ",list[j]);
+    printf(" . . . ");
+    for (j = n-10; j < n; j++)
+        printf("%d ",list[j]);
     sort(list, n);
     printf("\nSorted array:\n");
-    for (i = 0; i < n; i++)
-        printf("%d ",list[i]);
+    for (j = 0; j < 10; j++)
+        printf("%d ",list[j]);
+    printf(" . . . ");
+    for (j = n-10; j < n; j++)
+        printf("%d ",list[j]);
     printf("\n");
     if(is_sorted(list, n) == 1){
         printf("is sorted\n");
@@ -29,11 +34,21 @@ int main(void)
     else{
         printf("is not sorted\n");
     }
-    printf("검색 데이터(1 ~ %d): ", n);
-    scanf("%d", &key);
-    int cnt = binsearch(list, key, 0, n);
-    //printf("%d\n", key);
-    printf("cnt : %d", cnt);
+
+    while(1)
+    {
+        printf("검색 데이터(1 ~ 100000): ");
+        scanf("%d", &key);
+        if (key  == -1)
+        {
+            printf("검색 종료");
+            break;
+        }
+        int cnt = binsearch(list, key, 0, n);
+        //printf("%d\n", key);
+        printf("cnt : %d\n", cnt);
+    }
+
 }
 
 void sort(int *list,int n)
