@@ -14,13 +14,7 @@ int main(void){
     {
         start = clock();
         perm(A, 0, i);
-        end = (double)clock();
-        duration[i] = (end - start)/CLOCKS_PER_SEC;
-    }
-    for (int i = 0; i<10; i++)
-    {
-        perm(A, 0, i);
-        printf("\n");
+        duration[i] = ((double)clock() - start)/CLOCKS_PER_SEC;
     }
     printf("\t원소갯수\t실행시간\n");
     for (int i = 0; i<10; i++)

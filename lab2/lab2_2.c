@@ -5,7 +5,7 @@
 void perm(int *list, int i, int n);
 
 int main(void){
-    double duration, end;
+    double duration;
     int start, len, cnt = 0;
     int A[32] = {0};
     while(1)
@@ -24,8 +24,7 @@ int main(void){
         printf("순열 : \n");
         start = clock();
         perm(A, 0, len - 1);
-        end = (double)clock();
-        duration = (end - start)/CLOCKS_PER_SEC;
+        duration = ((double)clock() - start)/CLOCKS_PER_SEC;
         printf("\n실행시간 %6f", duration);
         printf("\n");
     }

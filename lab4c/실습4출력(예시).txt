@@ -1,0 +1,349 @@
+4.1. 스택
+스택 - 1.push 2.pop : 1
+push item : 10
+ index : item
+     0 :  10
+
+스택 - 1.push 2.pop : 1
+push item : 20
+ index : item
+     0 :  10
+     1 :  20
+
+스택 - 1.push 2.pop : 1
+push item : 30
+ index : item
+     0 :  10
+     1 :  20
+     2 :  30
+
+스택 - 1.push 2.pop : 2
+pop item : 30
+ index : item
+     0 :  10
+     1 :  20
+
+스택 - 1.push 2.pop : 2
+pop item : 20
+ index : item
+     0 :  10
+
+스택 - 1.push 2.pop : 2
+pop item : 10
+ index : item
+
+스택 - 1.push 2.pop : 1
+push item : 40
+ index : item
+     0 :  40
+
+스택 - 1.push 2.pop : 1
+push item : 50
+ index : item
+     0 :  40
+     1 :  50
+
+스택 - 1.push 2.pop : 1
+push item : 60
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+
+스택 - 1.push 2.pop : 1
+push item : 70
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+     3 :  70
+
+스택 - 1.push 2.pop : 2
+pop item : 70
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+
+스택 - 1.push 2.pop : 1
+push item : 80
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+     3 :  80
+
+스택 - 1.push 2.pop : 1
+push item : 90
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+     3 :  80
+     4 :  90
+
+스택 - 1.push 2.pop : 2
+pop item : 90
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+     3 :  80
+
+스택 - 1.push 2.pop : 2
+pop item : 80
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+
+스택 - 1.push 2.pop : 1
+push item : 100
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+     3 : 100
+
+스택 - 1.push 2.pop : 2
+pop item : 100
+ index : item
+     0 :  40
+     1 :  50
+     2 :  60
+
+스택 - 1.push 2.pop : -1
+
+
+4.2. 큐
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 10
+ index : item
+     0 :  10
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 20
+ index : item
+     0 :  10
+     1 :  20
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 30
+ index : item
+     0 :  10
+     1 :  20
+     2 :  30
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 10
+ index : item
+     1 :  20
+     2 :  30
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 20
+ index : item
+     2 :  30
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 30
+ index : item
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 40
+ index : item
+     3 :  40
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 50
+ index : item
+     3 :  40
+     4 :  50
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 60
+ index : item
+     3 :  40
+     4 :  50
+     5 :  60
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 70
+ index : item
+     3 :  40
+     4 :  50
+     5 :  60
+     6 :  70
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 40
+ index : item
+     4 :  50
+     5 :  60
+     6 :  70
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 80
+ index : item
+     4 :  50
+     5 :  60
+     6 :  70
+     7 :  80
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 90
+ index : item
+     4 :  50
+     5 :  60
+     6 :  70
+     7 :  80
+     8 :  90
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 50
+ index : item
+     5 :  60
+     6 :  70
+     7 :  80
+     8 :  90
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 60
+ index : item
+     6 :  70
+     7 :  80
+     8 :  90
+
+큐 - 1.addQ 2.deleteQ : 1
+addQ item : 100
+ index : item
+     6 :  70
+     7 :  80
+     8 :  90
+     9 : 100
+
+큐 - 1.addQ 2.deleteQ : 2
+deleteQ item : 70
+ index : item
+     7 :  80
+     8 :  90
+     9 : 100
+
+큐 - 1.addQ 2.deleteQ : -1
+
+
+4.3. 원형큐
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 10
+ index : element
+     5 :  10
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 20
+ index : element
+     5 :  10
+     6 :  20
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 30
+ index : element
+     5 :  10
+     6 :  20
+     7 :  30
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 10
+ index : element
+     6 :  20
+     7 :  30
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 20
+ index : element
+     7 :  30
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 30
+ index : element
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 40
+ index : element
+     8 :  40
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 50
+ index : element
+     8 :  40
+     9 :  50
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 60
+ index : element
+     8 :  40
+     9 :  50
+     0 :  60
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 70
+ index : element
+     8 :  40
+     9 :  50
+     0 :  60
+     1 :  70
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 40
+ index : element
+     9 :  50
+     0 :  60
+     1 :  70
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 80
+ index : element
+     9 :  50
+     0 :  60
+     1 :  70
+     2 :  80
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 90
+ index : element
+     9 :  50
+     0 :  60
+     1 :  70
+     2 :  80
+     3 :  90
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 50
+ index : element
+     0 :  60
+     1 :  70
+     2 :  80
+     3 :  90
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 60
+ index : element
+     1 :  70
+     2 :  80
+     3 :  90
+
+원형큐 - 1.addCQ 2.deleteCQ : 1
+addCQ item : 100
+ index : element
+     1 :  70
+     2 :  80
+     3 :  90
+     4 : 100
+
+원형큐 - 1.addCQ 2.deleteCQ : 2
+deleteCQ item : 70
+ index : element
+     2 :  80
+     3 :  90
+     4 : 100
+
+원형큐 - 1.addCQ 2.deleteCQ : -1

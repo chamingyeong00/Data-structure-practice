@@ -44,7 +44,7 @@ int main(void)
             printf("검색 종료");
             break;
         }
-        int cnt = binsearch(list, key, 0, n);
+        int cnt = binsearch(list, key, 0, n-1);
         //printf("%d\n", key);
         printf("cnt : %d\n", cnt);
     }

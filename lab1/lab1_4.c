@@ -45,7 +45,7 @@ int main(void)
             printf("검색 종료");
             break;
         }
-        int cnt = binsearch(list, key, 0, n);
+        int cnt = binsearch(list, key, 0, n-1);
         //printf("%d\n", key);
         printf("cnt : %d\n", cnt);
     }
@@ -85,9 +85,7 @@ int binsearch(int list[], int searchnum, int left, int right)
     int middle;
     while (left <= right)
     {
-        //printf("cnt : %d\n", cnt);
         middle = (left + right)/2;
-        //printf("list[%d] : %d\n", middle, list[middle]);
         switch (COMPARE(list[middle], searchnum))
         {
             case -1: 
