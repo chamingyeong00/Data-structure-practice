@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/it/micha/Data-structure-pratice/lab5/eval'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z10stack_fullv, symObjAddr: 0x0, symBinAddr: 0x100003AA0, symSize: 0x1C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _top, symObjAddr: 0x468, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _stack, symObjAddr: 0x1100, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _expr, symObjAddr: 0x1290, symBinAddr: 0x100008194, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: __Z10stack_fullv, symObjAddr: 0x0, symBinAddr: 0x100003AA0, symSize: 0x1C }
+  - { offsetInCU: 0xF2, offset: 0xF2, size: 0x8, addend: 0x0, symName: __Z11stack_emptyv, symObjAddr: 0x1C, symBinAddr: 0x100003ABC, symSize: 0x1C }
+  - { offsetInCU: 0x10B, offset: 0x10B, size: 0x8, addend: 0x0, symName: __Z4pushi, symObjAddr: 0x38, symBinAddr: 0x100003AD8, symSize: 0x60 }
+  - { offsetInCU: 0x133, offset: 0x133, size: 0x8, addend: 0x0, symName: __Z3popv, symObjAddr: 0x98, symBinAddr: 0x100003B38, symSize: 0x54 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: __Z4evalPc, symObjAddr: 0xEC, symBinAddr: 0x100003B8C, symSize: 0x14C }
+  - { offsetInCU: 0x1DE, offset: 0x1DE, size: 0x8, addend: 0x0, symName: __Z9get_tokenPcS_Pi, symObjAddr: 0x24C, symBinAddr: 0x100003CEC, symSize: 0xE4 }
+  - { offsetInCU: 0x226, offset: 0x226, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3F0, symBinAddr: 0x100003E90, symSize: 0x78 }
+...
