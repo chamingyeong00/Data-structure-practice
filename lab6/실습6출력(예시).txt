@@ -1,0 +1,418 @@
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 1
+데이터 :10
+리스트 : Head->10->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 2
+데이터 :20
+리스트 : Head->10->20->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 1
+데이터 :30
+리스트 : Head->30->10->20->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 2
+데이터 :40
+리스트 : Head->30->10->20->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 5
+데이터 :10
+노드번호 : 1
+리스트 : Head->30->10->20->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 5
+데이터 :40
+노드번호 : 3
+리스트 : Head->30->10->20->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 3
+삭제 데이터 : 30
+리스트 : Head->10->20->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 4
+데이터 :20
+삭제 데이터 : 20
+리스트 : Head->10->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 3
+삭제 데이터 : 10
+리스트 : Head->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : 4
+데이터 :30
+삭제 데이터 : -999
+리스트 : Head->40->Null
+
+ 리스트 기본연산
+ 0. print list
+ 1. insert_front
+ 2. insert_last
+ 3. delete_front
+ 4. delete_
+ 5. search
+-1. exit
+어떤 기능을 수행할까요? : -1
+Bye-bye ~
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :10
+Stack : Head->10->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :20
+Stack : Head->20->10->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :30
+Stack : Head->30->20->10->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 30
+Stack : Head->20->10->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 20
+Stack : Head->10->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 10
+Stack : Head->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :40
+Stack : Head->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :50
+Stack : Head->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :60
+Stack : Head->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :70
+Stack : Head->70->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 70
+Stack : Head->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :80
+Stack : Head->80->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :90
+Stack : Head->90->80->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 90
+Stack : Head->80->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 80
+Stack : Head->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 1
+push item :100
+Stack : Head->100->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : 2
+pop item : 100
+Stack : Head->60->50->40->Null
+
+ 리스트로 구현한 스택
+ 1. push
+ 2. pop
+-1. exit
+어떤 기능을 수행할까요? : -1
+Bye-bye ~
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :10
+Queue : Head->10->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :20
+Queue : Head->10->20->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :30
+Queue : Head->10->20->30->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 10
+Queue : Head->20->30->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 20
+Queue : Head->30->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 30
+Queue : Head->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :40
+Queue : Head->40->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :50
+Queue : Head->40->50->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :60
+Queue : Head->40->50->60->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :70
+Queue : Head->40->50->60->70->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 40
+Queue : Head->50->60->70->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :80
+Queue : Head->50->60->70->80->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :90
+Queue : Head->50->60->70->80->90->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 50
+Queue : Head->60->70->80->90->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 60
+Queue : Head->70->80->90->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 1
+addq item :100
+Queue : Head->70->80->90->100->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : 2
+deleteq item : 70
+Queue : Head->80->90->100->Null
+
+ 리스트로 구현한 큐
+ 1. addq
+ 2. deleteq
+-1. exit
+어떤 기능을 수행할까요? : -1
+Bye-bye ~

@@ -150,9 +150,9 @@ precedence get_token(char* expr, char *symbol, int *n){
 }
 
 int main(void){
-    printf("postfix : ");
+    printf("Infix : ");
     scanf("%s", expr);
-    printf("Eval to Postfix : \n");
+    printf("Infix to Postfix : \n");
     printf("     Token  |  Stack\t\t|  Top  | Output\n");
     postfix(new_expr);
     return 0;
