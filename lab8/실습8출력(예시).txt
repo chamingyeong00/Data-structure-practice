@@ -1,0 +1,27 @@
+8.1.1. 트리 구성 (A = make_tree_by_code())
+8.1.2. 트리 순회 (A)
+inorder(A) : 1 3 4 5 8
+preorder(A) : 5 3 1 4 8
+postorder(A) : 1 4 3 8 5
+
+8.2.1. 트리 복사 (B = copy(A))
+8.2.2. 트리 순회 (B)
+inorder(B) : 1 3 4 5 8
+preorder(B) : 5 3 1 4 8
+postorder(B) : 1 4 3 8 5
+
+8.2.3. 트리 동질성 검사 (equal(A,B))
+equal(A, B) : TRUE
+
+8.2.4. 트리 swap (C = swap(A))
+8.2.5. 트리 순회 (C)
+inorder(C) : 8 5 4 3 1
+preorder(C) : 5 8 3 4 1
+postorder(C) : 8 4 1 3 5
+
+8.3.1. 랜덤 트리 자동 생성 (D)
+Input n : 9
+8.3.2. 트리 순회 (D)
+inorder(D) : 4 5 7 8 9 1 2 3 6
+preorder(D) : 1 4 5 7 8 9 2 3 6
+postorder(D) : 9 8 7 5 4 6 3 2 1

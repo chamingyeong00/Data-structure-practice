@@ -10,7 +10,16 @@
         "string_view": "c",
         "iostream": "cpp",
         "ostream": "cpp",
-        "math.h": "c"
+        "math.h": "c",
+        "__bit_reference": "c",
+        "__memory": "c",
+        "limits": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "istream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "variant": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
